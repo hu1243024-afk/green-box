@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Waste Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #28a745;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .feature {
+            background-color: white;
+            display: flex;
+            align-items: center;
+            margin: 15px 0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .feature:hover {
+            transform: scale(1.02);
+        }
+        .feature img {
+            width: 60px;
+            height: 60px;
+            margin-right: 20px;
+        }
+        .feature h2 {
+            margin: 0 0 5px 0;
+            color: #28a745;
+        }
+        a {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 25px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+        a:hover {
+            background-color: #1e7e34;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Smart Waste Management Features</h1>
+    </header>
+
+    <div class="container">
+        <div class="feature">
+            <img src="https://img.icons8.com/ios-filled/100/28a745/recycle-bin.png" alt="Smart Collection Boxes">
+            <div>
+                <h2>1. Smart Collection Boxes</h2>
+                <p>Separate bins for different types of waste.</p>
+            </div>
+        </div>
+
+        <div class="feature">
+            <img src="https://img.icons8.com/ios-filled/100/28a745/qr-code.png" alt="QR Code Tracking">
+            <div>
+                <h2>2. QR Code Tracking</h2>
+                <p>Tracks donations from student to NGO/recycler.</p>
+            </div>
+        </div>
+
+        <div class="feature">
+            <img src="https://img.icons8.com/ios-filled/100/28a745/mobile.png" alt="Mobile/Web App">
+            <div>
+                <h2>3. Mobile/Web App</h2>
+                <p>For donations, history, and admin control.</p>
+            </div>
+        </div>
+
+        <div class="feature">
+            <img src="https://img.icons8.com/ios-filled/100/28a745/dashboard.png" alt="Live Dashboard">
+            <div>
+                <h2>4. Live Dashboard</h2>
+                <p>Real-time stats and impact display.</p>
+            </div>
+        </div>
+
+        <div class="feature">
+            <img src="https://img.icons8.com/ios-filled/100/28a745/handshake.png" alt="NGO & Recycler Tie-ups">
+            <div>
+                <h2>5. NGO & Recycler Tie-ups</h2>
+                <p>Ensures proper reuse or recycling.</p>
+            </div>
+        </div>
+
+        <div class="feature">
+            <img src="https://img.icons8.com/ios-filled/100/28a745/medal.png" alt="Reward System">
+            <div>
+                <h2>6. Reward System</h2>
+                <p>Badges, certificates for active donors.</p>
+            </div>
+        </div>
+
+        <div class="feature">
+            <img src="https://img.icons8.com/ios-filled/100/28a745/sorting-arrows.png" alt="Sorting System">
+            <div>
+                <h2>7. Sorting System</h2>
+                <p>Separates reusable vs non-usable waste.</p>
+            </div>
+        </div>
+
+        <div class="feature">
+            <img src="https://img.icons8.com/ios-filled/100/28a745/alarm.png" alt="Auto Alerts">
+            <div>
+                <h2>8. Auto Alerts</h2>
+                <p>Notifies when boxes are full for pickup.</p>
+            </div>
+        </div>
+
+        <div style="text-align:center;">
+            <a href="https://www.example.com" target="_blank">Learn More</a>
+        </div>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Waste Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        header img {
+            width: 100%;
+            max-height: 300px;
+            object-fit: cover;
+            opacity: 0.8;
+        }
+        header h1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 3em;
+            text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+        }
+        .container {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .feature {
+            background-color: white;
+            display: flex;
+            align-items: center;
+            margin: 15px 0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .feature:hover {
+            transform: scale(1.02);
+        }
+        .feature img {
+            width: 80px;
+            height: 80px;
+            margin-right: 20px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+        .feature h2 {
+            margin: 0 0 5px 0;
+            color: #28a745;
+        }
+        .feature a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 16px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+        .feature a:hover {
+            background-color: #1e7e34;
+        }
+        .main-link {
+            display: block;
+            text-align: center;
+            margin: 40px 0;
+        }
+        .main-link a {
+            padding: 15px 30px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Banner -->
+    <header>
+        <img src="https://images.unsplash.com/photo-1581579185532-6cdd38c9447f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDF8fHdpc3RlJTIwYmFubmVyfGVufDB8fHx8MTY5NzkxMDk5OA&ixlib=rb-4.0.3&q=80&w=1080" alt="Smart Waste Management Banner">
+        <h1>Smart Waste Management</h1>
+    </header>
+
+    <div class="container">
+        <!-- Feature 1 -->
+        <div class="feature">
+            <img src="https://img.icons8.com/ios-filled/100/28a745/recycle-bin.png" alt="Smart Collection Boxes">
+            <div>
+                <h2>1. Smart Collection Boxes</h2>
+                <p>Separate bins for different types of waste.</p>
+                <a href="https://www.example.com/smart-bins" target="_blank">Learn More</a>
+            </div>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="feature">
+            <img src="https://img.icons8.com/ios-filled/100/28a745/qr-code.png" alt="QR Code Tracking">
+            <div>
+                <h2>2. QR Code Tracking</h2>
+                <p>Tracks donations from student to NGO/recycler.</p>
+                <a href="https://www.example.com/qr-tracking" target="_blank">Learn More</a>
+            </div>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="feature">
+            <img src="https://img.icons8.com/ios-filled/100/28a745/mobile.png" alt="Mobile/Web App">
+            <div>
+                <h2>3. Mobile/Web App</h2>
+                <p>For donations, history, and admin control.</p>
+                <a href="https://www.example.com/app" target="_blank">Learn More</a>
+            </div>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="feature">
+            <img src="https://img.icons8.com/ios-filled/100/28a745/dashboard.png" alt="Live Dashboard">
+            <div>
+                <h2>4. Live Dashboard</h2>
+                <p>Real-time stats and impact display.</p>
+                <a href="https://www.example.com/dashboard" target="_blank">Learn More</a>
+            </div>
+        </div>
+
+        <!-- Feature 5 -->
+        <div class="feature">
+            <img src="https://img.icons8.com/ios-filled/100/28a745/handshake.png" alt="NGO & Recycler Tie-ups">
+            <div>
+                <h2>5. NGO & Recycler Tie-ups</h2>
+                <p>Ensures proper reuse or recycling.</p>
+                <a href="https://www.example.com/ngo" target="_blank">Learn More</a>
+            </div>
+        </div>
+
+        <!-- Feature 6 -->
+        <div class="feature">
+            <img src="https://img.icons8.com/ios-filled/100/28a745/medal.png" alt="Reward System">
+            <div>
+                <h2>6. Reward System</h2>
+                <p>Badges, certificates for active donors.</p>
+                <a href="https://www.example.com/rewards" target="_blank">Learn More</a>
+            </div>
+        </div>
+
+        <!-- Feature 7 -->
+        <div class="feature">
+            <img src="https://img.icons8.com/ios-filled/100/28a745/sorting-arrows.png" alt="Sorting System">
+            <div>
+                <h2>7. Sorting System</h2>
+                <p>Separates reusable vs non-usable waste.</p>
+                <a href="https://www.example.com/sorting" target="_blank">Learn More</a>
+            </div>
+        </div>
+
+        <!-- Feature 8 -->
+        <div class="feature">
+            <img src="https://img.icons8.com/ios-filled/100/28a745/alarm.png" alt="Auto Alerts">
+            <div>
+                <h2>8. Auto Alerts</h2>
+                <p>Notifies when boxes are full for pickup.</p>
+                <a href="https://www.example.com/alerts" target="_blank">Learn More</a>
+            </div>
+        </div>
+
+        <!-- Main Link Button -->
+        <div class="main-link">
+            <a href="https://www.example.com" target="_blank">Visit Our Official Website</a>
+        </div>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Waste Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        header img {
+            width: 100%;
+            max-height: 300px;
+            object-fit: cover;
+            opacity: 0.8;
+        }
+        header h1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 3em;
+            text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+        }
+        .container {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .feature {
+            background-color: white;
+            display: flex;
+            align-items: center;
+            margin: 15px 0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            text-decoration: none;
+            color: inherit;
+        }
+        .feature:hover {
+            transform: scale(1.02);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        .feature img {
+            width: 80px;
+            height: 80px;
+            margin-right: 20px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+        .feature h2 {
+            margin: 0 0 5px 0;
+            color: #28a745;
+        }
+        .feature p {
+            margin: 0;
+        }
+        .main-link {
+            display: block;
+            text-align: center;
+            margin: 40px 0;
+        }
+        .main-link a {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+        .main-link a:hover {
+            background-color: #1e7e34;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Banner -->
+    <header>
+        <img src="https://images.unsplash.com/photo-1581579185532-6cdd38c9447f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDF8fHdpc3RlJTIwYmFubmVyfGVufDB8fHx8MTY5NzkxMDk5OA&ixlib=rb-4.0.3&q=80&w=1080" alt="Smart Waste Management Banner">
+        <h1>Smart Waste Management</h1>
+    </header>
+
+    <div class="container">
+        <!-- Feature Cards (clickable) -->
+        <a class="feature" href="https://www.example.com/smart-bins" target="_blank">
+            <img src="https://img.icons8.com/ios-filled/100/28a745/recycle-bin.png" alt="Smart Collection Boxes">
+            <div>
+                <h2>1. Smart Collection Boxes</h2>
+                <p>Separate bins for different types of waste.</p>
+            </div>
+        </a>
+
+        <a class="feature" href="https://www.example.com/qr-tracking" target="_blank">
+            <img src="https://img.icons8.com/ios-filled/100/28a745/qr-code.png" alt="QR Code Tracking">
+            <div>
+                <h2>2. QR Code Tracking</h2>
+                <p>Tracks donations from student to NGO/recycler.</p>
+            </div>
+        </a>
+
+        <a class="feature" href="https://www.example.com/app" target="_blank">
+            <img src="https://img.icons8.com/ios-filled/100/28a745/mobile.png" alt="Mobile/Web App">
+            <div>
+                <h2>3. Mobile/Web App</h2>
+                <p>For donations, history, and admin control.</p>
+            </div>
+        </a>
+
+        <a class="feature" href="https://www.example.com/dashboard" target="_blank">
+            <img src="https://img.icons8.com/ios-filled/100/28a745/dashboard.png" alt="Live Dashboard">
+            <div>
+                <h2>4. Live Dashboard</h2>
+                <p>Real-time stats and impact display.</p>
+            </div>
+        </a>
+
+        <a class="feature" href="https://www.example.com/ngo" target="_blank">
+            <img src="https://img.icons8.com/ios-filled/100/28a745/handshake.png" alt="NGO & Recycler Tie-ups">
+            <div>
+                <h2>5. NGO & Recycler Tie-ups</h2>
+                <p>Ensures proper reuse or recycling.</p>
+            </div>
+        </a>
+
+        <a class="feature" href="https://www.example.com/rewards" target="_blank">
+            <img src="https://img.icons8.com/ios-filled/100/28a745/medal.png" alt="Reward System">
+            <div>
+                <h2>6. Reward System</h2>
+                <p>Badges, certificates for active donors.</p>
+            </div>
+        </a>
+
+        <a class="feature" href="https://www.example.com/sorting" target="_blank">
+            <img src="https://img.icons8.com/ios-filled/100/28a745/sorting-arrows.png" alt="Sorting System">
+            <div>
+                <h2>7. Sorting System</h2>
+                <p>Separates reusable vs non-usable waste.</p>
+            </div>
+        </a>
+
+        <a class="feature" href="https://www.example.com/alerts" target="_blank">
+            <img src="https://img.icons8.com/ios-filled/100/28a745/alarm.png" alt="Auto Alerts">
+            <div>
+                <h2>8. Auto Alerts</h2>
+                <p>Notifies when boxes are full for pickup.</p>
+            </div>
+        </a>
+
+        <!-- Main Link Button -->
+        <div class="main-link">
+            <a href="https://www.example.com" target="_blank">Visit Our Official Website</a>
+        </div>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Waste Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        header img {
+            width: 100%;
+            max-height: 300px;
+            object-fit: cover;
+            opacity: 0.8;
+        }
+        header h1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 3em;
+            text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .feature {
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            text-decoration: none;
+            color: inherit;
+        }
+        .feature:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        .feature img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+        .feature h2 {
+            margin: 0 0 10px 0;
+            color: #28a745;
+            text-align: center;
+        }
+        .feature p {
+            margin: 0 0 10px 0;
+            text-align: center;
+        }
+        .main-link {
+            display: block;
+            text-align: center;
+            margin: 40px 0;
+        }
+        .main-link a {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+        .main-link a:hover {
+            background-color: #1e7e34;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Banner -->
+    <header>
+        <img src="https://images.unsplash.com/photo-1581579185532-6cdd38c9447f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDF8fHdpc3RlJTIwYmFubmVyfGVufDB8fHx8MTY5NzkxMDk5OA&ixlib=rb-4.0.3&q=80&w=1080" alt="Smart Waste Management Banner">
+        <h1>Smart Waste Management</h1>
+    </header>
+
+    <div class="container">
+        <div class="grid">
+            <!-- Feature Cards (Grid Layout) -->
+            <a class="feature" href="https://www.example.com/smart-bins" target="_blank">
+                <img src="https://img.icons8.com/ios-filled/100/28a745/recycle-bin.png" alt="Smart Collection Boxes">
+                <h2>Smart Collection Boxes</h2>
+                <p>Separate bins for different types of waste.</p>
+            </a>
+
+            <a class="feature" href="https://www.example.com/qr-tracking" target="_blank">
+                <img src="https://img.icons8.com/ios-filled/100/28a745/qr-code.png" alt="QR Code Tracking">
+                <h2>QR Code Tracking</h2>
+                <p>Tracks donations from student to NGO/recycler.</p>
+            </a>
+
+            <a class="feature" href="https://www.example.com/app" target="_blank">
+                <img src="https://img.icons8.com/ios-filled/100/28a745/mobile.png" alt="Mobile/Web App">
+                <h2>Mobile/Web App</h2>
+                <p>For donations, history, and admin control.</p>
+            </a>
+
+            <a class="feature" href="https://www.example.com/dashboard" target="_blank">
+                <img src="https://img.icons8.com/ios-filled/100/28a745/dashboard.png" alt="Live Dashboard">
+                <h2>Live Dashboard</h2>
+                <p>Real-time stats and impact display.</p>
+            </a>
+
+            <a class="feature" href="https://www.example.com/ngo" target="_blank">
+                <img src="https://img.icons8.com/ios-filled/100/28a745/handshake.png" alt="NGO & Recycler Tie-ups">
+                <h2>NGO & Recycler Tie-ups</h2>
+                <p>Ensures proper reuse or recycling.</p>
+            </a>
+
+            <a class="feature" href="https://www.example.com/rewards" target="_blank">
+                <img src="https://img.icons8.com/ios-filled/100/28a745/medal.png" alt="Reward System">
+                <h2>Reward System</h2>
+                <p>Badges, certificates for active donors.</p>
+            </a>
+
+            <a class="feature" href="https://www.example.com/sorting" target="_blank">
+                <img src="https://img.icons8.com/ios-filled/100/28a745/sorting-arrows.png" alt="Sorting System">
+                <h2>Sorting System</h2>
+                <p>Separates reusable vs non-usable waste.</p>
+            </a>
+
+            <a class="feature" href="https://www.example.com/alerts" target="_blank">
+                <img src="https://img.icons8.com/ios-filled/100/28a745/alarm.png" alt="Auto Alerts">
+                <h2>Auto Alerts</h2>
+                <p>Notifies when boxes are full for pickup.</p>
+            </a>
+        </div>
+
+        <!-- Main Link Button -->
+        <div class="main-link">
+            <a href="https://www.example.com" target="_blank">Visit Our Official Website</a>
+        </div>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Waste Management</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #eef2f3;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        header img {
+            width: 100%;
+            max-height: 300px;
+            object-fit: cover;
+            opacity: 0.85;
+        }
+        header h1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 3em;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+        }
+        .container {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 25px;
+        }
+        .feature {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 25px;
+            border-radius: 15px;
+            text-decoration: none;
+            color: white;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .feature img {
+            width: 90px;
+            height: 90px;
+            margin-bottom: 15px;
+            border-radius: 15px;
+            object-fit: cover;
+        }
+        .feature h2 {
+            margin: 0 0 10px 0;
+            text-align: center;
+            font-size: 1.3em;
+            text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+        }
+        .feature p {
+            text-align: center;
+            margin: 0;
+            font-size: 0.95em;
+            text-shadow: 0.5px 0.5px 3px rgba(0,0,0,0.3);
+        }
+        .feature:hover {
+            transform: translateY(-8px) scale(1.03);
+            box-shadow: 0 15px 25px rgba(0,0,0,0.25);
+        }
+        /* Card background colors */
+        .bg1 { background-color: #28a745; }
+        .bg2 { background-color: #20c997; }
+        .bg3 { background-color: #17a2b8; }
+        .bg4 { background-color: #ffc107; color: #333; }
+        .bg5 { background-color: #6f42c1; }
+        .bg6 { background-color: #fd7e14; }
+        .bg7 { background-color: #198754; }
+        .bg8 { background-color: #0dcaf0; }
+        .main-link {
+            display: block;
+            text-align: center;
+            margin: 50px 0 20px 0;
+        }
+        .main-link a {
+            padding: 18px 35px;
+            font-size: 18px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 12px;
+            transition: background-color 0.3s;
+        }
+        .main-link a:hover {
+            background-color: #1e7e34;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Banner -->
+    <header>
+        <img src="https://images.unsplash.com/photo-1581579185532-6cdd38c9447f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDF8fHdpc3RlJTIwYmFubmVyfGVufDB8fHx8MTY5NzkxMDk5OA&ixlib=rb-4.0.3&q=80&w=1080" alt="Smart Waste Management Banner">
+        <h1>Smart Waste Management</h1>
+    </header>
+
+    <div class="container">
+        <div class="grid">
+            <a class="feature bg1" href="https://www.example.com/smart-bins" target="_blank">
+                <img src="https://img.icons8.com/ios-filled/100/ffffff/recycle-bin.png" alt="Smart Collection Boxes">
+                <h2>Smart Collection Boxes</h2>
+                <p>Separate bins for different types of waste.</p>
+            </a>
+
+            <a class="feature bg2" href="https://www.example.com/qr-tracking" target="_blank">
+                <img src="https://img.icons8.com/ios-filled/100/ffffff/qr-code.png" alt="QR Code Tracking">
+                <h2>QR Code Tracking</h2>
+                <p>Tracks donations from student to NGO/recycler.</p>
+            </a>
+
+            <a class="feature bg3" href="https://www.example.com/app" target="_blank">
+                <img src="https://img.icons8.com/ios-filled/100/ffffff/mobile.png" alt="Mobile/Web App">
+                <h2>Mobile/Web App</h2>
+                <p>For donations, history, and admin control.</p>
+            </a>
+
+            <a class="feature bg4" href="https://www.example.com/dashboard" target="_blank">
+                <img src="https://img.icons8.com/ios-filled/100/333333/dashboard.png" alt="Live Dashboard">
+                <h2>Live Dashboard</h2>
+                <p>Real-time stats and impact display.</p>
+            </a>
+
+            <a class="feature bg5" href="https://www.example.com/ngo" target="_blank">
+                <img src="https://img.icons8.com/ios-filled/100/ffffff/handshake.png" alt="NGO & Recycler Tie-ups">
+                <h2>NGO & Recycler Tie-ups</h2>
+                <p>Ensures proper reuse or recycling.</p>
+            </a>
+
+            <a class="feature bg6" href="https://www.example.com/rewards" target="_blank">
+                <img src="https://img.icons8.com/ios-filled/100/ffffff/medal.png" alt="Reward System">
+                <h2>Reward System</h2>
+                <p>Badges, certificates for active donors.</p>
+            </a>
+
+            <a class="feature bg7" href="https://www.example.com/sorting" target="_blank">
+                <img src="https://img.icons8.com/ios-filled/100/ffffff/sorting-arrows.png" alt="Sorting System">
+                <h2>Sorting System</h2>
+                <p>Separates reusable vs non-usable waste.</p>
+            </a>
+
+            <a class="feature bg8" href="https://www.example.com/alerts" target="_blank">
+                <img src="https://img.icons8.com/ios-filled/100/ffffff/alarm.png" alt="Auto Alerts">
+                <h2>Auto Alerts</h2>
+                <p>Notifies when boxes are full for pickup.</p>
+            </a>
+        </div>
+
+        <div class="main-link">
+            <a href="https://www.example.com" target="_blank">Visit Our Official Website</a>
+        </div>
+    </div>
+</body>
+</html>
